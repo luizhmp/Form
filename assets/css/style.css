@@ -1,0 +1,139 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Arial';
+	color: #000;
+	background-color: #FFF;
+	font-size: 14px;
+}
+header{
+	background-color: #f7f7f7;
+	height: auto;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #EcEcEc;
+}
+.container{
+	display: flex;
+	width: 900px;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+.form_title{
+	padding-left: 15px;
+	font-size: 10px;
+	color: #9c9c9c;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+}
+.section_title h2{
+	margin-top: 10px ;
+	margin-bottom: 0;
+	color: gray;
+}
+.hr{
+	margin-top: -10px;
+	border-bottom: 1px solid #EcEcEc;
+}
+.input_camp h4{
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+.input_box{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #CcCcCc;
+	color: gray;
+}
+#input_box2{
+	margin-left: 50px;
+}
+#input_box3{
+	margin-left: 50px;
+}
+#input_box4{
+	display: flex;
+	flex-direction: column;
+	width: 47.2%;
+}
+#input_box5{
+	flex: 1;
+	margin-left: 50px;
+}
+.inline{
+	display: flex;
+}
+.input_inline{
+	width: 100%;
+}
+.input_inline h4{
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+.input_radio{
+	width: 100%;
+}
+.input_radio h4{
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+.radio_style{
+	display: flex;
+	float: left;
+	margin-top: 5px;
+}
+.radio_style input{
+	margin-left: 0;
+	margin-right: 7px;
+}
+.input_radio label{
+	margin-top: 1.5px;
+	margin-right: 20px;
+}
+button{
+	margin-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFF;
+	background-color: #00688B;
+	border: 0;
+	border-radius: 3px;
+	font-size: 12px;
+	cursor: pointer;
+}
+@media (max-width: 930px){
+	.form_title{
+		padding-left: 0px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.form{
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+}
+@media (max-width: 568px){
+	.inline{
+		flex-direction: column;
+	}
+	#input_box2{
+		margin-left: 0px;
+	}
+	#input_box3{
+		margin-left: 0px;
+	}
+	#input_box5{
+	flex: 1;
+	margin-left: 0px;
+	}
+	#input_box4{
+		width: 100%;
+	}
+}
+
+
